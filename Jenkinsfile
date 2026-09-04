@@ -18,7 +18,7 @@ pipeline {
 
         stage('Execute') {
             steps {
-                bat 'java -cp target/classes Calculator'
+                bat 'java -cp target/classes org.example.Calculator'
             }
         }
     }
